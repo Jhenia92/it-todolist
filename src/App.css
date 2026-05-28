@@ -1,0 +1,26 @@
+.app {
+  padding: 30px;
+  display: flex;
+}
+
+.app > div {
+  margin-right: 50px;
+}
+.task {
+  font-weight: bold;
+}
+.task-done {
+  text-decoration: line-through;
+  font-style: italic;
+  opacity: 0.5;
+}
+.filter-btn-active {
+  color: white;
+  background-color: cornflowerblue;
+  border: 2px solid cornflowerblue;
+  border-radius: 5px;
+}
+.error {
+  border: 2px solid red;
+  outline: none;
+}
